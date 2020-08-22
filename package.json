@@ -1,0 +1,38 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Express api",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --inspect",
+    "lint": "eslint --ext .js src",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cedric",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-eslint": "^10.0.3",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "express": "^4.16.4",
+    "express-session": "^1.17.0",
+    "express-validation": "^1.0.3",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.0",
+    "multer": "^1.4.2",
+    "stripe": "^7.6.0"
+  }
+}
